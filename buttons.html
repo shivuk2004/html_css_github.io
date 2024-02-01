@@ -3,12 +3,27 @@
     background-color:rgb(200, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px; 
+    transition: opacity 0.15s;
+    vertical-align: top;
+
+}
+  .subscribe-button:hover{
+    opacity: 0.8;
+   
   }
+  .subscribe-button:active{
+    opacity: 0.5;
+
+  }
+   
 
   .join-button{
     background-color: white;
@@ -16,11 +31,28 @@
     border-style: solid;
     border-width: 1px;
     color:rgb(4, 43, 200) ;
-    height: 36;
-    width: 62px;
     border-radius: 2px;
     margin-right: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px; 
+    transition: opacity 0.15s;
+    vertical-align: top;
+    
   }
+  .join-button:hover{
+    background-color: rgb(41, 41, 193) ;
+    color: white;
+  }
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+  
   .Tweet-button{
     background-color: rgb(2, 155, 255);
     color: white;
@@ -30,6 +62,7 @@
     border-radius:18px ;
     font-weight: bold;
     cursor: pointer;
+   transition: box-shadow 0.15s;
   }
   .signup-button{
     background-color: rgb(46, 164, 79);
@@ -76,7 +109,7 @@
 <button class="subscribe-button">
   SUBSCRIBE</button>
 <button class="join-button">
-  join
+  join 
 </button>
 <button class="Tweet-button">
   Tweet
